@@ -1,0 +1,361 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.title .accent {
+    color: #fd9222;
+}
+
+/* --------------------header----------------------  */
+.header {}
+
+.header-nav {}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.header-logo-span {
+    font-style: italic;
+}
+
+.header-logo-img {}
+
+.header-nav-menu {}
+
+.header-menu-item {}
+
+.header-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+.header-menu-link:hover,
+.header-menu-link:active,
+.header-menu-link:focus {
+    color: #fd9222;
+}
+
+.header-soc-list {}
+
+.header-soc-item {}
+
+.header-soc-item-link {}
+
+/* --------------------header----------------------  */
+
+/* --------------------hero----------------------  */
+.main {}
+
+.hero {
+    background: rgba(17, 17, 17, 0.6);
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.hero-btn-main {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background: #fd9222;
+    cursor: pointer;
+}
+
+.hero-btn-link {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background: rgba(17, 17, 17, 0.6);
+}
+
+.hero-link-scroll {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/* --------------------hero----------------------  */
+
+/* --------------------features----------------------  */
+.features {
+    background-color: #1e1823;
+}
+
+.features-list {}
+
+.features-item {}
+
+.features-item-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.features-item-text {
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* --------------------features----------------------  */
+
+/* --------------------sensation----------------------  */
+.sensation {}
+
+.sensation-title {}
+
+.sensation-text {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111;
+}
+
+.sensation-list {}
+
+.sensation-item {}
+
+.sensation-item-img {}
+
+.sensation-item-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.sensation-item-subtitle .sensation-subtitle {
+    color: #111;
+}
+
+/* --------------------sensation----------------------  */
+
+/* ----------------------made------------------------  */
+.made {}
+
+.made-title {}
+
+.made-img {}
+
+.made-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111;
+}
+
+.made-list {}
+
+.made-item {}
+
+.made-text {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+/* ----------------------made------------------------  */
+
+/* ----------------------products------------------------  */
+.products {}
+
+.products-title {}
+
+.products-list {}
+
+.products-item {}
+
+.products-img {}
+
+.products-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+.products-text {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.products-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #111;
+}
+
+/* ----------------------products------------------------  */
+
+/* ----------------------sellers------------------------  */
+.sellers {}
+
+.sellers-title {}
+
+.sellers-list {}
+
+.sellers-item {}
+
+.sellers-item-img {}
+
+.sellers-item-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+/* ----------------------sellers------------------------  */
+
+/* ----------------------loved------------------------  */
+.loved {}
+
+.loved-title {}
+
+.title {}
+
+.loved-list {}
+
+.loved-item {}
+
+.loved-img {}
+
+.loved-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #111;
+}
+
+.loved-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.loved-btn {
+    font-weight: 600;
+    font-size: 18px;
+    color: #111;
+}
+
+/* ----------------------loved------------------------  */
+
+/* ----------------------footer------------------------  */
+.footer {
+    background: #1e1823;
+}
+
+.footer-text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: #fff;
+    ;
+}
+
+.footer-text .accent {
+    color: #fd9222;
+}
+
+.footer-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-soc-list {}
+
+.footer-soc-item {}
+
+.footer-soc-link {}
+
+.footer-address {}
+
+.footer-contact-list {}
+
+.footer-contact-item {}
+
+.footer-contact-link {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-menu-list {}
+
+.footer-menu-item {}
+
+.footer-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+/* ----------------------footer------------------------  */
